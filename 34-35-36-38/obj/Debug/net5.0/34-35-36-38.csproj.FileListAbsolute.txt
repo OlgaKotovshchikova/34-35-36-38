@@ -1,0 +1,16 @@
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\34-35-36-38.exe
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\34-35-36-38.deps.json
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\34-35-36-38.runtimeconfig.json
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\34-35-36-38.runtimeconfig.dev.json
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\34-35-36-38.dll
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\ref\34-35-36-38.dll
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\bin\Debug\net5.0\34-35-36-38.pdb
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.AssemblyInfoInputs.cache
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.AssemblyInfo.cs
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.dll
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\ref\34-35-36-38.dll
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.pdb
+C:\Users\Никита\Desktop\34,35,36,38\34-35-36-38\obj\Debug\net5.0\34-35-36-38.genruntimeconfig.cache

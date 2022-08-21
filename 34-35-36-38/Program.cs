@@ -6,7 +6,93 @@ namespace _34_35_36_38
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Введите номер задачи - 34, 35, 36, 38: ");
+            int taskNumber = Convert.ToInt32(Console.ReadLine());
+            switch (taskNumber)
+            {
+                case 34:
+                    TaskThirtyfour();
+                    break;
+                case 35:
+                    TaskThirtyfive();
+                    break;
+                case 36:
+                    TaskThirtysix();
+                    break;
+                case 38:
+                    TaskThirtyeight();
+                    break;
+                default:
+                    Console.WriteLine("Такой задачи не существует");
+                    break;
+            }
+
+            #region Задача 34
+            /*  Задайте массив заполненный случайными положительными трёхзначными числами.
+             *  Напишите программу, которая покажет количество чётных чисел в массиве.
+              [345, 897, 568, 234] -> 2*/
+
+
+            static void TaskThirtyfour()
+            {
+                int[] array = new int[10];
+                Random rand = new Random(); 
+               
+                int count = 0;
+
+                for (int i = 0; i < array.Length; i++)
+                {
+                    array[i] = rand.Next(100, 1000);
+                    if (array[i] % 2 == 0)
+                    {
+                        count++;
+                    }
+                }
+                Console.WriteLine(string.Join(", ", array));
+                Console.WriteLine(count);
+            }
+            #endregion
+
+            #region Задача 35
+           /* Задайте одномерный массив из 123 случайных чисел в диапазоне[0, 150]. 
+            * Найдите количество элементов массива, значения которых лежат в отрезке[10, 99].
+            Пример для массива из 5, а не 123 элементов.В своём решении сделайте для 123
+            [5, 18, 123, 6, 2]-> 1
+            [1, 2, 3, 6, 2]-> 0
+            [10, 11, 12, 13, 14]-> 5*/
+
+
+            static void TaskThirtyfive()
+            {
+
+            }
+
+            #endregion
+
+            #region Задача 36
+            /*Задайте одномерный массив, заполненный случайными числами.Найдите сумму элементов, стоящих на нечётных позициях.
+            [3, 7, 23, 12] -> 19
+            [-4, -6, 89, 6]-> 0*/
+
+
+            static void TaskThirtysix()
+            {
+
+            }
+
+            #endregion
+
+            #region Задача 38
+            /*Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+            [3 7 22 2 7 8] -> 76*/
+        
+
+            static void TaskThirtyeight()
+            {
+
+            }
+
+            #endregion
         }
     }
 }
