@@ -108,14 +108,30 @@ namespace _34_35_36_38
 
             #region Задача 38
             /*Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-            [3 7 22 2 7 8] -> 76*/
-        
+            [3 7 22 2 78] -> 76*/
 
             static void TaskThirtyeight()
             {
-
+                double[] array = new double[10];
+                Random rand = new Random();
+                double res = 0;
+                for (int i = 0; i < array.Length; i++)
+                {
+                    array[i] = Math.Round(rand.NextDouble(), 2);
+                }
+                double max = array[0];
+                double min = array[0];
+                for (int i = 0; i < array.Length; i++)
+                {
+                    if (max < array[i]) max = array[i];
+                    if (min > array[i]) min = array[i];
+                }
+                res = max - min;
+                Console.WriteLine(string.Join(", ", array));
+                Console.WriteLine(max);
+                Console.WriteLine(min);
+                Console.WriteLine(Math.Round(res, 2));
             }
-
             #endregion
         }
     }
