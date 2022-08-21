@@ -90,9 +90,20 @@ namespace _34_35_36_38
 
             static void TaskThirtysix()
             {
-
+                int[] array = new int[10];
+                Random rand = new Random();
+                int sum = 0;
+                for (int i = 0; i < array.Length; i++)
+                {
+                    array[i] = rand.Next(1, 10);
+                }
+                for (int i = 1; i < array.Length; i+=2)
+                {
+                    sum += array[i];
+                }
+                Console.WriteLine(string.Join(", ", array));
+                Console.WriteLine(sum);
             }
-
             #endregion
 
             #region Задача 38
