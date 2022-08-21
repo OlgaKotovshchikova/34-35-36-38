@@ -128,8 +128,6 @@ namespace _34_35_36_38
                 }
                 res = max - min;
                 Console.WriteLine(string.Join(", ", array));
-                Console.WriteLine(max);
-                Console.WriteLine(min);
                 Console.WriteLine(Math.Round(res, 2));
             }
             #endregion
